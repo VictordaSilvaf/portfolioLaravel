@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/general.css') }}">
 
     <!-- Vars -->
     <link rel="stylesheet" href={{ asset('css/vars.css') }}>
