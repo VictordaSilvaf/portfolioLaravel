@@ -5,6 +5,8 @@
     display: flex;
     align-items: center;
     position: fixed;
+    z-index: 5;
+    opacity: .9;
 }
 
 .navbar-component a {
@@ -52,4 +54,20 @@
 
 .menu-navbar a:hover {
     color: var(--secondary-font-color);
+}
+
+.authenticationBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.authenticationBox a {
+    margin: 0px 1em;
+}
+
+.loginBox {
+    display: flex;
+    justify-items: right;
+
 }

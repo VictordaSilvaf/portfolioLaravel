@@ -43,13 +43,20 @@ class TechnologyController extends Controller
             'image'=> 'required',
         ]);
 
+        if($request->hasFile('image') && $request->file('image')->isValid()) {
+            $extension = $request->image->extension();
+            $imageName = md5($request->image->getClientOriginalName() . strtotime("now")) . '.' . $extension;
+
+            $request->image->move(public_path('images/tecnologies'), $imageName);
+        }
+
         $technology = new Technology([
             'name' => $request->get('name'),
-            'image'=> $request->get('image'),
+            'image'=> $imageName,
         ]);
 
         $technology->save();
-        return redirect('/technology')->with('success', 'Tecnologia adicionada com sucesso!');
+        return redirect()->route('technologies.index')->banner('Tecnologia adicionada com sucesso!');
     }
 
     /**

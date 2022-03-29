@@ -1,7 +1,8 @@
 :root {
     --main-bg-color: #1f1f1f;
     --secondary-bg-color: #2c2c2c;
+    --black-font-color: #0f0f0f;
     --primary-font-color: aliceblue;
-    --secondary-font-color: #7993A0;
-    --third-font-color: #93A889;
+    --secondary-font-color: #648475;
+    --third-font-color: #7993A0;
 }

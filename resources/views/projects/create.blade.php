@@ -15,28 +15,43 @@
                         <div class="subTitle">
                             <h2>Preencha o formulario de adicionar projeto</h2>
                         </div>
-                        <form action={{ route('projects.store') }}>
+
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <strong>Whoops!</strong> Tem algum erro com algum dos campos de preechimento.<br><br>
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        <form action={{ route('projects.store') }} method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="form">
                                 <div class="form-box">
                                     <span>Nome: </span>
-                                    <input type="text" required/>
+                                    <input type="text" name="name" id="name" required/>
                                 </div>
                                 <div class="form-box">
                                     <span>Descrição: </span>
-                                    <input type="text" required/>
+                                    <input type="text" name="description" id="description" required/>
                                 </div>
                                 <div class="form-box">
                                     <span>Imagem: </span>
-                                    <input type="text" required/>
+                                    <input type="file" name="images" id="images" required/>
+                                </div>
+                                <div class="form-box">
+                                    <span>Link do projeto: </span>
+                                    <input type="text" name="link" id="link" required/>
                                 </div>
                                 <div class="form-box">
                                     <span>Estado: </span>
-                                    <input type="text"/>
+                                    <input type="text" name="status" id="status" required/>
                                 </div>
 
                                 <div class="form-btn-box right">
-                                    <button class="btn btn-success">Adicionar</button>
+                                    <button class="btn btn-success" type="submit">Adicionar</button>
                                 </div>
                             </div>
                         </form>

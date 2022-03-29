@@ -27,7 +27,7 @@
                             </div>
                         @endif
 
-                        <form method="POST" action={{ route('technology.store') }}>
+                        <form method="POST" action={{ route('technologies.store') }} enctype="multipart/form-data">
                             @csrf
                             <div class="form">
                                 <div class="form-box">
@@ -36,7 +36,7 @@
                                 </div>
                                 <div class="form-box">
                                     <span>Imagem: </span>
-                                    <input type="text" name="image" id="image" required />
+                                    <input type="file" name="image" id="image" required />
                                 </div>
 
                                 <div class="form-btn-box right">

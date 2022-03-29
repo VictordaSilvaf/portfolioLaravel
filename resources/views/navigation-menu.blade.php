@@ -5,7 +5,7 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
+                    <a href="/">
                         <x-jet-application-mark class="block h-9 w-auto" />
                     </a>
                 </div>
@@ -18,7 +18,7 @@
                 </div>
 
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('technology.index') }}" :active="request()->routeIs('technology.*')">
+                    <x-jet-nav-link href="{{ route('technologies.index') }}" :active="request()->routeIs('technologies.*')">
                         {{ __('Tecnologias') }}
                     </x-jet-nav-link>
                 </div>
@@ -26,6 +26,12 @@
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('projects.index') }}" :active="request()->routeIs('projects.*')">
                         {{ __('Projetos') }}
+                    </x-jet-nav-link>
+                </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('comments.index') }}" :active="request()->routeIs('comments.*')">
+                        {{ __('Comentarios') }}
                     </x-jet-nav-link>
                 </div>
             </div>

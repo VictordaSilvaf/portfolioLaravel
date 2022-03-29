@@ -20,7 +20,7 @@
                         </div>
                     @endif
                     <div class="btn-content">
-                        <a href={{ route('technology.create') }} class="btn btn-success">Adicionar tecnologia</a>
+                        <a href={{ route('technologies.create') }} class="btn btn-success">Adicionar tecnologia</a>
                     </div>
                     <div class="flex items-center">
                         <table class="table">
@@ -39,7 +39,7 @@
                                         <td>{{ $technology->name }}</td>
                                         <td>{{ $technology->image }}</td>
                                         <td>
-                                            <form action={{ route('technology.destroy', $technology->id) }}
+                                            <form action={{ route('technologies.destroy', $technology->id) }}
                                                 method="POST">
                                                 @csrf
                                                 @method('DELETE')
