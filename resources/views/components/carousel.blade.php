@@ -1,12 +1,10 @@
 <link rel="stylesheet" href={{ asset('css/components/coursel.css') }}>
 
 <div class="carousel">
-
     <div class="corousel-items">
-        @foreach ($technologies->all() as $technology)
-
+        @foreach ($projects->all() as $project)
             <div data-js="carousel__item" class="carousel__item">
-                <img src={{ asset("images/tecnologies/$technology->image") }} alt={{ $technology->name }} />
+                <img src={{ asset("images/projects/$project->images") }} alt={{ $project->name }} />
             </div>
         @endforeach
     </div>

@@ -13,17 +13,17 @@
 
     <div class="content-box left" id="tecnologies">
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8 content">
-            <h2 data-anime="top">Tecnologias</h2>
+            <h2 data-anime="top">Projetos</h2>
         </div>
         <div class="courselBox" data-anime="botton">
-            <x-carousel :technologies="$technologies" />
+            <x-carousel :projects="$projects" />
         </div>
     </div>
     <div class="max-w-6xl mx-auto sm:px-6 lg:px-8 content">
         <div class="content-box" id="projects">
             <h2 class="right mt-4" data-anime="right">Projetos</h2>
             <div data-anime="botton">
-                <x-gallery :projects="$projects" />
+                <x-gallery :technologies="$technologies" />
             </div>
         </div>
 

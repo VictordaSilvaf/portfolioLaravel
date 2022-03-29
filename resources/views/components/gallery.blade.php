@@ -1,14 +1,14 @@
 <link rel="stylesheet" href={{ asset('css/components/gallery.css') }}>
 
 <div class="gallery">
-    @foreach ($projects as $project)
+    @foreach ($technologies as $technology)
         <div class="galleryContent">
             <div class="imgBox">
-                <img src={{ asset("images/projects/$project->images") }} alt={{ $project->name }}>
+                <img src={{ asset("images/tecnologies/$technology->image") }} alt={{ $technology->name }}>
             </div>
             <div class="textBox">
-                <h3>{{ $project->name }}</h3>
-                <p>{{ $project->description }}</p>
+                <h3>{{ $technology->name }}</h3>
+                <p>{{ $technology->description }}</p>
             </div>
         </div>
     @endforeach

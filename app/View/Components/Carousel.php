@@ -12,11 +12,11 @@ class Carousel extends Component
      * @return void
      */
 
-    public $technologies;
+    public $projects;
 
-    public function __construct($technologies)
+    public function __construct($projects)
     {
-        $this->technologies = $technologies;
+        $this->projects = $projects;
     }
 
     /**
