@@ -3,6 +3,8 @@
     max-width: auto;
     position: relative;
     opacity: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel .carousel__item,

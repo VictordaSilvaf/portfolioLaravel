@@ -31,7 +31,6 @@
             <h2 data-anime="left">Sobre mim</h2>
             <div class="content-box-data">
 
-
                 <div class="content-box--aboutMe" id="aboutme" data-anime="left">
                     <p>
                         Muito prazer me chamo Victor, estudo programação des dos meus 16 anos e estou inserido na area a
@@ -61,8 +60,8 @@
                     </p>
                 </div>
 
-                <div class="content-box left content-box--aboutMe2" id="aboutme2" data-anime="right">
-                    <div class="image"></div>
+                <div class="content-box content-box--aboutMe2" id="aboutme2" data-anime="right">
+                    <img src="{{asset('images/programador.png')}}" alt="" srcset="">
                 </div>
 
             </div>
@@ -122,6 +121,10 @@
             </div>
         </div>
     </div>
+
+    <footer class="content-box--footer">
+        © Todos os Diretos Reservados - Victor da Silva.
+    </footer>
 
 </x-guest-layout>
 <script src={{ asset('js/Home.js') }}></script>
