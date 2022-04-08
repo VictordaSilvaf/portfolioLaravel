@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('link');
-            $table->string('image');
+            $table->string('images');
             $table->string('description');
             $table->string('status')->default('finished');
             $table->timestamps();
