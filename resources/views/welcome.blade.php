@@ -6,7 +6,7 @@
             <section data-anime="left">
                 <h2>Apenas programador Full-Stack</h2>
                 <h3>É simples, pode ser composto. Se firma no concreto e torna-se, abstrato.</h3>
-                <a href="#Contact">Entrar em contato.</a>
+                <a href="#contact">Entrar em contato.</a>
             </section>
         </div>
     </div>
@@ -31,8 +31,8 @@
             <h2 data-anime="left">Sobre mim</h2>
             <div class="content-box-data">
 
-                <div class="content-box--aboutMe" id="aboutme" data-anime="left">
-                    <p>
+                <div class="content-box--aboutMe" id="aboutme">
+                    <p data-anime="left">
                         Muito prazer me chamo Victor, estudo programação des dos meus 16 anos e estou inserido na area a
                         1
                         ano,
@@ -42,7 +42,7 @@
                         todas
                         as minhas forças.
                     </p>
-                    <p>
+                    <p data-anime="left">
                         No momento tenho uma ampla gama de skill para me ajudar no meu dia a dia, e estou apto a
                         trabalhar
                         em diversa modalidade de DevOps,
@@ -50,7 +50,7 @@
                         aprender tecnologias novas, na minha opnião
                         conhecimento nunca é ruim de se ter.
                     </p>
-                    <p>
+                    <p data-anime="left">
                         Atualmente estou trabalhando como desenvolvedor focando no framework Laravel que ultiliza como
                         sua
                         principal linguagem php,
