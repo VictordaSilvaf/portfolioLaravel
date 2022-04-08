@@ -2,7 +2,7 @@
 
 <div class="gallery">
     @foreach ($technologies as $technology)
-        <div class="galleryContent">
+        <div class="galleryContent" data-anime="botton">
             <div class="imgBox">
                 <img src={{ asset("images/tecnologies/$technology->image") }} alt={{ $technology->name }}>
             </div>

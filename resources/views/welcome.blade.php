@@ -21,8 +21,8 @@
     </div>
     <div class="max-w-6xl mx-auto sm:px-6 lg:px-8 content">
         <div class="content-box" id="projects">
-            <h2 class="right mt-4" data-anime="right">Projetos</h2>
-            <div data-anime="botton">
+            <h2 class="right mt-4" data-anime="right">Tecnologias</h2>
+            <div>
                 <x-gallery :technologies="$technologies" />
             </div>
         </div>

@@ -8,23 +8,26 @@
 }
 
 .gallery .galleryContent {
-    width: 210px;
-    max-width: 210px;
+    width: 300px;
     height: auto;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     margin: 2% 0%;
     color: var(--primary-font-color);
     text-align: center;
-
 }
 
 .gallery .galleryContent .imgBox {
-    width: 200px;
+    width: 100%;
     height: 200px;
     overflow: hidden;
     border-radius: 22px;
+}
+
+.gallery .galleryContent .imgBox img{
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .gallery .galleryContent .imgBox img {

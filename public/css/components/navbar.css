@@ -1,18 +1,30 @@
 .navbar-component {
     background-color: var(--main-bg-color);
-    width: 100%;
+    width: 100vw;
     height: 60px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     position: fixed;
     z-index: 5;
-    opacity: .9;
+    padding: 0px 20px;
+}
+
+.navbar-component ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 .navbar-component a {
     color: var(--primary-font-color);
     text-decoration: none;
     transition: .5s ease;
+}
+
+.loginBox > ul > li > ul > li > a {
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar-component a:hover {
@@ -33,7 +45,7 @@
     font-size: 2em;
 }
 
-.logo-navbar h1 span{
+.logo-navbar h1 span {
     color: var(--secondary-font-color);
 }
 
@@ -56,18 +68,70 @@
     color: var(--secondary-font-color);
 }
 
-.authenticationBox {
-    display: flex;
-    flex-direction: row;
+.btn-navbar a {
+    width: 0px !important;
+    height: 0px !important;
+    display: hidden !important;
+    justify-content: right;
     align-items: center;
 }
 
-.authenticationBox a {
-    margin: 0px 1em;
+.white {
+    color: white;
 }
 
-.loginBox {
-    display: flex;
-    justify-items: right;
+.loginBox ul li {
+    display: inline;
+    position: relative;
+}
 
+.loginBox ul ul {
+    display: none;
+    position: absolute;
+    background-color: var(--main-bg-color);
+    right: 0;
+    width: 150px;
+    padding: 0px 20px;
+}
+
+.loginBox ul li:hover ul {
+    display: block;
+}
+
+.loginBox ul ul li a {
+    display: block;
+}
+
+.mobile-menu {
+    margin-bottom: 20px;
+    display: none;
+}
+
+@media all and (max-width: 800px) {
+    .menu-navbar {
+        display: none;
+    }
+
+    .loginBox {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    .logo-navbar {
+        width: 50%;
+    }
+
+    .btn-navbar {
+        width: 50%;
+        height: 100%;
+        display: flex;
+    }
+
+    .mobile-menu {
+        margin-bottom: 20px;
+        display: block;
+    }
 }

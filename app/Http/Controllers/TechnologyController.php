@@ -102,7 +102,7 @@ class TechnologyController extends Controller
     public function destroy(Technology $technology)
     {
         $technology->delete();
-        return redirect()->route('technology.index')
+        return redirect()->route('technologies.index')
             ->with('success', 'Tecnologia removida com sucesso!');
     }
 }
