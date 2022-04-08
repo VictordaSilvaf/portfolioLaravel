@@ -12,8 +12,8 @@
     <nav class="menu-navbar">
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#tecnologies">Tecnologias</a></li>
             <li><a href="#projects">Projetos</a></li>
+            <li><a href="#tecnologies">Tecnologias</a></li>
             <li><a href="#aboutme">Sobre mim</a></li>
             <li><a href="#contact">Contato</a></li>
         </ul>
@@ -29,8 +29,8 @@
                     <ul>
                         <div class="mobile-menu">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#tecnologies">Tecnologias</a></li>
                             <li><a href="#projects">Projetos</a></li>
+                            <li><a href="#tecnologies">Tecnologias</a></li>
                             <li><a href="#aboutme">Sobre mim</a></li>
                             <li><a href="#contact">Contato</a></li>
                         </div>

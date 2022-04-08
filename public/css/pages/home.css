@@ -23,11 +23,13 @@
 .banner-image section h2 {
     font-size: 2.8em;
     font-weight: bolder;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .banner-image section h3 {
     font-size: 1.6em;
     font-weight: lighter;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .banner-image section a {
@@ -35,6 +37,7 @@
     font-size: 1.3em;
     border-bottom: 1px solid #7993a0;
     transition: 0.5s ease;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .banner-image section a:hover {
@@ -93,8 +96,8 @@
 
 .content-box--aboutMe p {
     margin-bottom: 2%;
-    font-family: 'Caveat', cursive;
-    font-size: 1.17em;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1em;
 }
 
 .content-box--aboutMe2 {
@@ -116,10 +119,12 @@
 .content-box--contact h3,
 h4 {
     text-align: center;
+    font-size: .8em;
 }
 
 .content-box--contact h3 {
-    font-family: Righteous;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2em;
 }
 
 .content-box--contact form {
@@ -128,6 +133,7 @@ h4 {
 
 .content-box--contact {
     width: 100%;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .content-box--contact input {

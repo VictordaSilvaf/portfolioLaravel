@@ -8,7 +8,6 @@
             </div>
             <div class="textBox">
                 <h3>{{ $technology->name }}</h3>
-                <p>{{ $technology->description }}</p>
             </div>
         </div>
     @endforeach

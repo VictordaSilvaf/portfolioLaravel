@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="content-box left" id="tecnologies">
+    <div class="content-box left" id="projects">
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8 content">
             <h2 data-anime="top">Projetos</h2>
         </div>
@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="max-w-6xl mx-auto sm:px-6 lg:px-8 content">
-        <div class="content-box" id="projects">
+        <div class="content-box" id="tecnologies">
             <h2 class="right mt-4" data-anime="right">Tecnologias</h2>
             <div>
                 <x-gallery :technologies="$technologies" />

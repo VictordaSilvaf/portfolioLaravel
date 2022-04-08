@@ -36,7 +36,7 @@
 }
 
 .gallery .galleryContent h3{
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
     margin-top: 5%;
     color: var(--secondary-font-color);
@@ -46,6 +46,7 @@
 
     overflow: hidden;
     text-overflow: ellipsis;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .gallery .galleryContent p{
