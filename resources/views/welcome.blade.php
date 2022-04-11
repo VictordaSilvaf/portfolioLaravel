@@ -33,35 +33,26 @@
 
                 <div class="content-box--aboutMe" id="aboutme">
                     <p data-anime="left">
-                        Muito prazer me chamo Victor, estudo programação des dos meus 16 anos e estou inserido na area a
-                        1
-                        ano,
-                        sempre fui apaixonado por programação e des de pequeno "brinco" de programar des de jogos a
-                        aplicações para ajudar no meu dia a dia
-                        mas nunca levava a serio, ate que um dia decidi seguir por esse caminho e focar de verdade com
-                        todas
-                        as minhas forças.
+                        Muito prazer me chamo Victor, estudo programação dês dos meus 16 anos e estou inserido na área a
+                        1 ano, sempre fui apaixonado por programação e dês de pequeno "brinco" de programar dês de jogos
+                        a aplicações para ajudar no meu dia a dia mas nunca levava a serio, ate que um dia decidi seguir
+                        por esse caminho e focar de verdade com todas as minhas forças.
                     </p>
                     <p data-anime="left">
-                        No momento tenho uma ampla gama de skill para me ajudar no meu dia a dia, e estou apto a
-                        trabalhar
-                        em diversa modalidade de DevOps,
-                        tanto na area de front-end, quanto na de back-end e tambem na area de deploy e sempre disposto a
-                        aprender tecnologias novas, na minha opnião
+                        No momento tenho uma ampla gama de skill para me ajudar no meu dia-a-dia, e estou apto a
+                        trabalhar em diversa modalidade de DevOps, tanto na área de front-end, quanto na de back-end e
+                        também na área de deploy e sempre disposto a aprender tecnologias novas, na minha opinião
                         conhecimento nunca é ruim de se ter.
                     </p>
                     <p data-anime="left">
-                        Atualmente estou trabalhando como desenvolvedor focando no framework Laravel que ultiliza como
-                        sua
-                        principal linguagem php,
-                        mais estou estudando bastante por fora python tanto flask quanto django, e me aventurando na
-                        area de
-                        data mining e machine learning.
+                        Atualmente estou trabalhando como desenvolvedor focando no framework Laravel que utiliza como
+                        sua principal linguagem php, mais estou estudando bastante por fora python tanto flask quanto
+                        django, e me aventurando na área de data mining e machine learning.
                     </p>
                 </div>
 
                 <div class="content-box content-box--aboutMe2" id="aboutme2" data-anime="right">
-                    <img src="{{asset('images/programador.png')}}" alt="" srcset="">
+                    <img src="{{ asset('images/programador.png') }}" alt="" srcset="">
                 </div>
 
             </div>
