@@ -3,9 +3,9 @@
 <div class="carousel">
     <div class="corousel-items">
         @foreach ($projects->all() as $project)
-            <div data-js="carousel__item" class="carousel__item">
-                <img src={{ asset("images/projects/$project->images") }} alt={{ $project->name }} />
-            </div>
+                <div data-js="carousel__item" class="carousel__item">
+                    <img src={{ asset("images/projects/$project->images") }} alt={{ $project->name }} />
+                </div>
         @endforeach
     </div>
 

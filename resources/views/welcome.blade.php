@@ -74,7 +74,7 @@
                 </div>
                 <div class="content-box--contact" data-anime="botton">
                     <h3>Entre em contato!</h3>
-                    <h4>Preencha o formulário abaixo para esclarermos suas dúvidas e dar início ao seu projeto!</h4>
+                    <h4>Preencha o formulário abaixo para esclarecemos suas dúvidas e dar início ao seu projeto!</h4>
 
                     @if ($errors->any())
                         <div class="alert alert-success">
@@ -114,7 +114,9 @@
     </div>
 
     <footer class="content-box--footer">
-        © Todos os Diretos Reservados - Victor da Silva.
+        <p class="footer">
+            2022 © victordev.online | Victor da Silva Fernandes | Design por <a href="https://nayma.pl" target="_blank">victordev.online</a>
+        </p>
     </footer>
 
 </x-guest-layout>

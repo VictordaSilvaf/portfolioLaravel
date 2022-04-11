@@ -1,3 +1,14 @@
+.body {
+    -moz-osx-font-smoothing: grayscale;
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    font-size: 1em;
+    font-weight: 300;
+}
+
 .banner-image {
     width: 100%;
     height: 100vh;
@@ -194,6 +205,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: "Courier New", Courier, monospace;
+    font-weight: lighter;
+    font-size: .6rem;
+    opacity: .5;
 }
 
 [data-anime] {
