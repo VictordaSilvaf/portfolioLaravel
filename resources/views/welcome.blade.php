@@ -115,7 +115,7 @@
 
     <footer class="content-box--footer">
         <p class="footer">
-            2022 © victordev.online | Victor da Silva Fernandes | Design por <a href="https://nayma.pl" target="_blank">victordev.online</a>
+            2022 © victordev.online | Victor da Silva Fernandes | Design por <a href="https://victordev.online" target="_blank">victordev.online</a>
         </p>
     </footer>
 
